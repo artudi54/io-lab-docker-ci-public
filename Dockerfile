@@ -1,6 +1,6 @@
 FROM python:3.7-alpine
 
-LABEL maintainer="Michal Orzechowski <morzech@agh.edu.pl>"
+LABEL maintainer="Artur Pietrzyk <artudi54@gmail.com>"
 
 # Metadata schema args
 ARG SCHEMA_NAME

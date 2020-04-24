@@ -1,6 +1,6 @@
 # Git repo metadata
 TAG = $(shell git describe --tags --always)
-PREFIX = $(shell git config --get remote.origin.url | tr ':.' '/'  | rev | cut -d '/' -f 3 | rev)
+PREFIX = artudi54
 # TODO: if your repository name is different then this github repository name on ovrwrite this variable with docer hub repo name
 REPO_NAME = $(shell git config --get remote.origin.url | tr ':.' '/'  | rev | cut -d '/' -f 2 | rev)
 
